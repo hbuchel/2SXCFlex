@@ -1,46 +1,46 @@
 .flex {
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
 }
 
 .flex__image {
-		img {
-				width: 100%;
-		}
+	img {
+		width: 100%;
+	}
 }
 
 .flex--row {
-		@include breakpoint($mobile) {
-				flex-direction: row;
-				.flex__content {
-						padding-left: 20px;
-				}
-				.flex__image {
-						max-width: 45%;
-				}
+	@include breakpoint($mobile) {
+		flex-direction: row;
+		.flex__content {
+			padding-left: 20px;
 		}
+		.flex__image {
+			max-width: 45%;
+		}
+	}
 }
 
 .flex-list {
-		display: flex;
-		flex-direction: column;
-		@include breakpoint($tablet) {
-				flex-direction: row;
-		}
-		margin: 0 -20px;
-		.flex {
-				flex: 1;
-				padding: 0 20px;
-		}
+	display: flex;
+	flex-direction: column;
+	@include breakpoint($tablet) {
+		flex-direction: row;
+	}
+	margin: 0 -20px;
+	.flex {
+		flex: 1;
+		padding: 0 20px;
+	}
 }
 
 .flex-list--bullets {
-		@include breakpoint($tablet) {
-				flex-wrap: wrap;
-				.flex {
-						flex: 1 0 (100%/3);
-						
-				}
+	@include breakpoint($tablet) {
+		flex-wrap: wrap;
+		.flex {
+			flex: 1 0 (100%/3);
+			
 		}
+	}
 }
