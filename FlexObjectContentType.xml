@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="06.00.00" MinimumRequiredVersion="06.00.08" ModuleVersion="06.02.00" ExportDate="2014-11-04T22:58:45.5074133-05:00">
+  <Header>
+    <Language Default="en-US" />
+    <Dimensions />
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="4953fd3a-f13b-4da6-a405-38262869e156" Name="Flex Object" Description="Media Object with Flexbox" Scope="2SexyContent">
+      <Attributes>
+        <Attribute StaticName="flex_image" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="7056e8f6-80af-4a5d-82fc-c9e1beca655f">
+            <Value Key="Name" Value="flex_image" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Hyperlink" AttributeSetName="@Hyperlink" EntityGUID="4166141a-767c-4783-abad-fe74f0df5e11">
+            <Value Key="Paths" Value="" Type="String" />
+            <Value Key="DefaultDialog" Value="ImageManager" Type="String" />
+            <Value Key="FileFilter" Value="" Type="String" />
+            <Value Key="ShowPagePicker" Value="False" Type="Boolean" />
+            <Value Key="ShowImageManager" Value="True" Type="Boolean" />
+            <Value Key="ShowFileManager" Value="False" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="flex_image_alt" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="793fcd86-4a31-4202-9def-216cc403de79">
+            <Value Key="Name" Value="flex_image_alt" Type="String" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="flex_title" Type="String" IsTitle="true">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="abddd2a2-34bf-4f11-a47c-65e273919914">
+            <Value Key="Name" Value="flex_title" Type="String" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="flex_link" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="c0b0f6a6-a557-4ba3-8fc7-7575839c7fdf">
+            <Value Key="Name" Value="flex_link" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Hyperlink" AttributeSetName="@Hyperlink" EntityGUID="a443b16c-7494-4f8f-8df4-1a01e2ec7611">
+            <Value Key="Paths" Value="" Type="String" />
+            <Value Key="DefaultDialog" Value="PagePicker" Type="String" />
+            <Value Key="FileFilter" Value="" Type="String" />
+            <Value Key="ShowPagePicker" Value="True" Type="Boolean" />
+            <Value Key="ShowImageManager" Value="False" Type="Boolean" />
+            <Value Key="ShowFileManager" Value="False" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="flex_content" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="1981c525-5b45-4116-ae9e-21db14bb36e1">
+            <Value Key="Name" Value="flex_content" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="d12e239e-c0cd-431c-a368-353ee6b9310c">
+            <Value Key="DropdownValues" Value="" Type="String" />
+            <Value Key="InputType" Value="wysiwyg" Type="String" />
+            <Value Key="ValidationRegEx" Value="" Type="String" />
+            <Value Key="RowCount" Value="4" Type="Number" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="ValidationAutomatic" Value="" Type="String" />
+            <Value Key="WysiwygHeight" Value="" Type="Number" />
+            <Value Key="WysiwygWidth" Value="" Type="Number" />
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+  </AttributeSets>
+  <Entities />
+  <Templates />
+  <PortalFiles />
+</SexyContent>

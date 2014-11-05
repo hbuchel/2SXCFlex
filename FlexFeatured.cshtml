@@ -1,0 +1,17 @@
+@foreach(var e in List) {
+	var Content = e.Content;
+	<div class="flex flex--row">
+		<div class="flex__image">
+			<img src="@Content.flex_image" alt="@Content.flex_image_alt" />
+		</div>
+		<div class="flex__content">
+			<h2 class="flex__title">
+				<a href="@Content.flex_link">
+					@Content.flex_title
+				</a>
+			</h2>
+			@Html.Raw(@Content.flex_content)
+		</div>
+    	
+  	</div>
+}
